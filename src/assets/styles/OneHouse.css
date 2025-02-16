@@ -76,9 +76,9 @@ src: url("../fonts/Minecrafter.Reg.ttf");
     position: absolute;
     content: "";
     top: -5px;
-    left: -25%;
-    width: 150%;
-    background-color: #fff;
+    left: -15px;
+    width: calc(100% + 30px);
+    background-color: #534949;
     height: 2px;
 }
 

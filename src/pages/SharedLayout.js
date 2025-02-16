@@ -5,8 +5,8 @@ import Footer from '../components/Footer';
 
 const SharedLayout = () => {
   return <>
-    <Header></Header><br />
-    <Outlet></Outlet><br />
+    <Header></Header>
+    <Outlet></Outlet>
     <Footer></Footer>
   </>
 }

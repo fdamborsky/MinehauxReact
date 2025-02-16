@@ -1,0 +1,142 @@
+@font-face {
+    font-family: ProximaNova;
+    src: url("../fonts/ProximaNova.otf");
+  }
+
+@font-face {
+font-family: MinecraftRegular;
+src: url("../fonts/MinecraftRegular.otf");
+}
+
+@font-face {
+font-family: MinecraftBoldRotting;
+src: url("../fonts/Minecrafter.Alt.ttf");
+}
+
+@font-face {
+font-family: MinecraftBold;
+src: url("../fonts/Minecrafter.Reg.ttf");
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    overflow-x: hidden;
+}
+
+#landing-page {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../images/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#container {
+    position: relative;
+    width: 700px;
+    height: 320px;
+}
+
+#container h1{
+    height: 45px;
+    text-align: center;
+    font-family: MinecraftBold;
+    font-size: 3rem;
+    color: #fff;
+    letter-spacing: .1rem;
+    overflow: hidden;
+}
+
+#container p{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: MinecraftRegular;
+    font-size: 1rem;
+    color: #fff;
+    user-select: none;
+    pointer-events: none;
+
+}
+
+.toggle-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.toggle-button {
+    border: none;
+    background: none;
+    padding: 0px 15px;
+    margin: 0;
+    cursor: pointer;
+    outline: none;
+
+}
+
+.toggle-button img {
+    display: block;
+    user-select: none;
+    pointer-events: none;
+}
+
+.search {
+    position: relative;
+    height: 100px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    background-color: #262626;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    user-select: none;
+}
+
+.search img{
+    outline: none;
+    user-select: none;
+    pointer-events: none;
+    width: auto;
+}
+
+.search h3{
+    padding-left: 10px;
+    width: auto;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-family: MinecraftRegular;
+    font-size: 40px;
+    color: white;
+}
+
+#types {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    user-select: none;
+}

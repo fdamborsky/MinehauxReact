@@ -1,0 +1,81 @@
+@font-face {
+    font-family: ProximaNova;
+    src: url("../fonts/ProximaNova.otf");
+  }
+
+@font-face {
+font-family: MinecraftRegular;
+src: url("../fonts/MinecraftRegular.otf");
+}
+
+@font-face {
+font-family: MinecraftBoldRotting;
+src: url("../fonts/Minecrafter.Alt.ttf");
+}
+
+@font-face {
+font-family: MinecraftBold;
+src: url("../fonts/Minecrafter.Reg.ttf");
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+header {
+    height: 80px;
+    background-color: rgba(44, 44, 44, 100);
+    filter: drop-shadow(0 0 0.2rem black);
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    display: flex
+;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    outline: none;
+    z-index: 998;
+}
+
+header h1 {
+    display: inline-block;
+    font-family: MinecraftBold;
+    color: #fff;
+    font-size: 50px;
+    cursor: pointer;
+    outline: none;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 2.5vw;
+}
+
+.links a {
+    text-decoration: none;
+    color: #fff;
+    font-family: MinecraftRegular;
+    font-size: 20px;
+    outline: none;
+}
+
+.logout {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.links img {
+    height: 20px;
+    padding-right: 10px;
+    outline: none;
+}
+
