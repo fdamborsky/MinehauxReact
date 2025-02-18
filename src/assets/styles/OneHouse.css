@@ -36,12 +36,12 @@ src: url("../fonts/Minecrafter.Reg.ttf");
     flex-direction: column;
     padding: 15px;
     border-radius: 25px;
-    margin: 50px;
+    pointer-events: auto;
 }
 
 .box h1 {
     font-family: MinecraftBold;
-    font-size: 1.1rem;
+    font-size: 1.25rem;
     color: #00a651;
     margin: 10px 0px;
 }

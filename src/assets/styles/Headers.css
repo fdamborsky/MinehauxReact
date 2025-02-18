@@ -29,7 +29,7 @@ src: url("../fonts/Minecrafter.Reg.ttf");
 
 header {
     height: 80px;
-    background-color: rgba(44, 44, 44, 100);
+    background-color: rgba(44, 44, 44, 0.5);
     filter: drop-shadow(0 0 0.2rem black);
     position: fixed;
     width: 100%;
@@ -41,6 +41,7 @@ header {
     padding: 0px 100px;
     outline: none;
     z-index: 998;
+    transition: .35s linear all;
 }
 
 header h1 {
